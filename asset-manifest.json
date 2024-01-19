@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "./static/css/main.aa8c55cb.chunk.css",
+    "main.js": "./static/js/main.57aeb7ae.chunk.js",
+    "main.js.map": "./static/js/main.57aeb7ae.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.7cbaff21.js",
+    "runtime-main.js.map": "./static/js/runtime-main.7cbaff21.js.map",
+    "static/js/2.51abccc4.chunk.js": "./static/js/2.51abccc4.chunk.js",
+    "static/js/2.51abccc4.chunk.js.map": "./static/js/2.51abccc4.chunk.js.map",
+    "17b334ffb157b66ac8b0.worker.js": "./17b334ffb157b66ac8b0.worker.js",
+    "17b334ffb157b66ac8b0.worker.js.LICENSE.txt": "./17b334ffb157b66ac8b0.worker.js.LICENSE.txt",
+    "17b334ffb157b66ac8b0.worker.js.map": "./17b334ffb157b66ac8b0.worker.js.map",
+    "196de6c561a258c25ef1.worker.js": "./196de6c561a258c25ef1.worker.js",
+    "196de6c561a258c25ef1.worker.js.LICENSE.txt": "./196de6c561a258c25ef1.worker.js.LICENSE.txt",
+    "196de6c561a258c25ef1.worker.js.map": "./196de6c561a258c25ef1.worker.js.map",
+    "5f5f22f87eea60fa8c3b.worker.js": "./5f5f22f87eea60fa8c3b.worker.js",
+    "5f5f22f87eea60fa8c3b.worker.js.LICENSE.txt": "./5f5f22f87eea60fa8c3b.worker.js.LICENSE.txt",
+    "5f5f22f87eea60fa8c3b.worker.js.map": "./5f5f22f87eea60fa8c3b.worker.js.map",
+    "bac15dd8bacc4ea79549.worker.js": "./bac15dd8bacc4ea79549.worker.js",
+    "bac15dd8bacc4ea79549.worker.js.LICENSE.txt": "./bac15dd8bacc4ea79549.worker.js.LICENSE.txt",
+    "bac15dd8bacc4ea79549.worker.js.map": "./bac15dd8bacc4ea79549.worker.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.213f17e9d4126df6c13a56c845b98c28.js": "./precache-manifest.213f17e9d4126df6c13a56c845b98c28.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.aa8c55cb.chunk.css.map": "./static/css/main.aa8c55cb.chunk.css.map",
+    "static/js/2.51abccc4.chunk.js.LICENSE.txt": "./static/js/2.51abccc4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/webusb-enable-experimental-features.png": "./static/media/webusb-enable-experimental-features.e5a08e76.png",
+    "static/media/webusb-enable-webusb.png": "./static/media/webusb-enable-webusb.aceef6a0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cbaff21.js",
+    "static/js/2.51abccc4.chunk.js",
+    "static/css/main.aa8c55cb.chunk.css",
+    "static/js/main.57aeb7ae.chunk.js"
+  ]
+}
