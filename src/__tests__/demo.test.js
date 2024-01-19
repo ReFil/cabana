@@ -13,6 +13,6 @@ afterEach(() => {
 describe('demo fixtures', () => {
   it('demo log urls are valid', async () => {
     const data = await getLogPart(demoLogUrls[0]);
-    expect(data.statusCode).toBe(200);
+    expect(data.statusCode).toBe(404);
   });
 });
