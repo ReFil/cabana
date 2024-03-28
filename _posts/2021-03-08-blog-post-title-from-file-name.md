@@ -21,7 +21,7 @@ FROM dbo.SomeTable s
 
 #### Some PowerShell Code
 
-```powershell
+```c
 Write-Host "This is a powershell Code block";
 
 # There are many other languages you can use, but the style has to be loaded first
