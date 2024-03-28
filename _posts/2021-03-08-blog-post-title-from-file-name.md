@@ -30,3 +30,10 @@ ForEach ($thing in $things) {
     Write-Output "It highlights it using the GitHub style"
 }
 ```
+
+```c
+for(int i=0; i<10; i++) {
+    return 0;
+}
+
+```
