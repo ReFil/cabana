@@ -32,8 +32,34 @@ ForEach ($thing in $things) {
 ```
 
 ```c
-for(int i=0; i<10; i++) {
-    return 0;
+static void split_central_connected(struct bt_conn *conn, uint8_t conn_err) {
+    char addr[BT_ADDR_LE_STR_LEN];
+    struct bt_conn_info info;
+
+    bt_addr_le_to_str(bt_conn_get_dst(conn), addr, sizeof(addr));
+
+    bt_conn_get_info(conn, &info);
+
+    if (info.role != BT_CONN_ROLE_CENTRAL) {
+        LOG_DBG("SKIPPING FOR ROLE %d", info.role);
+        return;
+    }
+
+    if (conn_err) {
+        LOG_ERR("Failed to connect to %s (%u)", addr, conn_err);
+
+        release_peripheral_slot_for_conn(conn);
+
+        start_scanning();
+        return;
+    }
+
+    LOG_DBG("Connected: %s", addr);
+
+    confirm_peripheral_slot_conn(conn);
+    split_central_process_connection(conn);
+    raise_zmk_split_peripheral_status_changed(
+        (struct zmk_split_peripheral_status_changed){.connected = true});
 }
 
 ```
