@@ -32,6 +32,9 @@ ForEach ($thing in $things) {
 ```
 
 ```c
+
+void bt_addr_le_to_str(uint8_t arg1, arg2, arg3);
+
 static void split_central_connected(struct bt_conn *conn, uint8_t conn_err) {
     char addr[BT_ADDR_LE_STR_LEN];
     struct bt_conn_info info;
